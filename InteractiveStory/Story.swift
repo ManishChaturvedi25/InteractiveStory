@@ -49,8 +49,6 @@ extension Story
         }
     }
 
-    
-    
 
 var text: String {
     switch self {

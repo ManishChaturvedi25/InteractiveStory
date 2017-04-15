@@ -21,7 +21,5 @@ class Page
         self.story = story
     }
     
-    
-    
 }
 
