@@ -39,7 +39,7 @@ extension Page
             case(.some, .none):secondChoice = Choice(title:title, page:page)
         }
         
-        return self
+        return page
     }
 }
 
