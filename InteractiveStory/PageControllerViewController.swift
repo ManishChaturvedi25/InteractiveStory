@@ -10,6 +10,20 @@ import UIKit
 
 class PageControllerViewController: UIViewController {
 
+    
+    var page:Page?
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+    }
+    init(page:Page) {
+
+        self.page = page
+        super.init(nibName: nil, bundle: nil)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
